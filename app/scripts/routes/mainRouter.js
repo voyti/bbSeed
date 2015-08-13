@@ -8,6 +8,11 @@ define([
 
     var MainRouterRouter = Backbone.Router.extend({
         routes: {
+          "/game": "game"
+        },
+
+        game: function () {
+          window.location = "/game"
         }
 
     });
